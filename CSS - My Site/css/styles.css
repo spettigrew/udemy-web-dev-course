@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: 'Dancing Script',"Arial", sans serif, cursive;
     background-color: #f9f3f3;
+    color: #40514E;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h2 {
     font-family: "Arial", sans serif;
     font-size: 1.5rem;
     color: #276678;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -33,6 +35,25 @@ h4 {
 p {
     font-family: "Arial", sans-serif;
     font-size: 1rem;
+    line-height: 2;
+}
+
+hr {
+    border: dotted  #276678;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #1687a7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #02475e;
 }
 
 .top-container {
@@ -50,34 +71,44 @@ p {
     padding-top: 1rem;   
 }
 
+.about {
+    width: 40%;
+    margin: auto;
+}
+
 .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 250px;
+    top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
+}
+
+.middle-container {
+    margin: 100px 0;
 }
 
 .skill-row {
     width: 35rem;
     margin: 50px auto 50px auto;
     text-align: left;
-    line-height: 2;
+    
 }
 
 .BUTTON_RBI {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
-   border-radius: 10px;
+   border-radius: 5px;
    color: #F6F5F5;
    font-family: Arial;
    font-size: 20px;
    font-weight: 100;
-   padding: 30px;
+   padding: 20px;
+   margin: 10px;
    background-color: #1687A7;
    -webkit-box-shadow: 1px 1px 10px 0 #000000;
    -moz-box-shadow: 1px 1px 10px 0 #000000;
@@ -104,16 +135,25 @@ p {
    text-decoration: none;
 }
 
-.btn {
+.contact-me {
     font-size: 1rem;
     color: #276678;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #276678;
+    padding: 20px 0;
+
 }
 
 .bottom-container {
     height: 50px;
     width: 100%;
-    color: #276678;
-    padding: 20px;
+    background-color: #d3e0ea;
+    padding: 20px 0 50px;
 }
 
 .footer-link {
@@ -121,7 +161,3 @@ p {
     margin: 5px;
 }
 
-.bottom-container p {
-    font-size: 18px;
-    color: #276678;
-}
